@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    display: block;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero__inner {
+    padding-top: 16px;
+    /* max-width: 800px; */
+}
+
+.hero__title {
+    margin: auto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.hero__tagline {
+    margin: auto;
+    color: #fff;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+body {
+    margin: 0 auto;
+    background-color: #81ee96;
+    /* width: 90%; */
+}
+
+.container {
+    flex-direction: column;
+    border-radius: 3px;
+    padding: 16px;
+    width: 90%;
+    display: flex;
+    margin: 32px auto;
+    background-color: #2AAF2D;
+}
+
+.card h1 {
+    margin: auto;
+    text-align: center;
+    color: #403008;
+}
+
+
+
+.card {
+    border-radius: 3px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    background-color: #2AAF2D;
+}
+
+.card-2 {
+    border-radius: 3px;
+    padding: 16px;
+    width: 90%;
+    display: flex;
+    margin: 32px;
+    background-color: #FFD700;
+}
+
+
+.profile-picture {
+    display: block;
+    margin: 32px auto;
+    width: 250px;
+    border-radius: 10px;
+    border: solid 3px #019000;
+    background-color: #FFD700;
+}
+
+.text-card {
+    border-radius: 10px;
+    border: solid 3px #019000;
+    margin: 32px auto;
+
+    background-color: #FFD700;
+    padding: 16px;
+}
+
+summary {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+.container-platform {
+    margin: auto;
+    padding-left: 16px;
+    line-height: 150%;
+}
+
+
+.container-platform li {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    display: block;
+    margin: auto;
+    border-bottom: solid 2px black;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 30px;
+}
+
+.container-left {
+    color: black;
+    margin: 16px;
+    text-align: left;
+    border-bottom: solid 3px #019000;
+}
+
+.container-left p {
+    padding-bottom: 16px;
+}
+
+footer {
+    border-top: 2px solid #019000;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2AAF2D;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: large;
+    color: black;
+    padding: 12px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .card {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {}
